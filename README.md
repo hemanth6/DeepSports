@@ -1,6 +1,6 @@
 # Login CARC
 
-Connect to CARC Discovery Node with SSH (i.e. PuTTY). Replace <code>username</code> with your USC username (i.e. <code>adiyer</code> or <code>alalim</code>):
+Connect to CARC Discovery Node with SSH (i.e. PuTTY). Replace <code>username</code> with your USC username 
    - **Host Name (or IP):** <code>username@discovery.usc.edu</code>
    - **Port:** 22
    - **Note:** If possible, set seconds between keepalives to 60 to ping every 60s to maintain a long-lasting connection.
@@ -11,7 +11,7 @@ To simplify the entire process, clone the entire repo to your home directory (i.
 
 ```
 cd "/home1/$USER"
-git clone -b main https://github.com/abhay-iy97/DeepSports.git
+git clone -b main https://github.com/hemanth6/DeepSports.git
 ```
 
 - **Note:** When it asks for your GitHub password, you may have to setup a personal access token for GitHub and use that instead (click [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for quick guide).
